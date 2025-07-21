@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "primitives/colors",
+    "primitives/spacing",
+    "primitives/typography",
+    "responsive/desktop",
+    "responsive/mobile",
+    "responsive/tablet",
+    "semantic/dark",
+    "semantic/light",
+    "semantic/typography"
+  ]
+}

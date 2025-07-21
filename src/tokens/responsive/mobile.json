@@ -1,19 +1,51 @@
 {
   "breakpoint": {
     "mobile": {
-      "min": { "value": "0px", "description": "Mobile breakpoint minimum width" },
-      "max": { "value": "767px", "description": "Mobile breakpoint maximum width" }
+      "min": {
+        "value": "0px",
+        "description": "Mobile breakpoint minimum width",
+        "type": "other"
+      },
+      "max": {
+        "value": "767px",
+        "description": "Mobile breakpoint maximum width",
+        "type": "other"
+      }
     }
   },
   "spacing": {
     "responsive": {
       "mobile": {
-        "xs": { "value": "{spacing.base.1}", "description": "Mobile extra small spacing" },
-        "sm": { "value": "{spacing.base.2}", "description": "Mobile small spacing" },
-        "md": { "value": "{spacing.base.3}", "description": "Mobile medium spacing" },
-        "lg": { "value": "{spacing.base.4}", "description": "Mobile large spacing" },
-        "xl": { "value": "{spacing.base.6}", "description": "Mobile extra large spacing" },
-        "2xl": { "value": "{spacing.base.8}", "description": "Mobile 2x large spacing" }
+        "xs": {
+          "value": "{spacing.base.1}",
+          "description": "Mobile extra small spacing",
+          "type": "spacing"
+        },
+        "sm": {
+          "value": "{spacing.base.2}",
+          "description": "Mobile small spacing",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{spacing.base.3}",
+          "description": "Mobile medium spacing",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.base.4}",
+          "description": "Mobile large spacing",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{spacing.base.6}",
+          "description": "Mobile extra large spacing",
+          "type": "spacing"
+        },
+        "2xl": {
+          "value": "{spacing.base.8}",
+          "description": "Mobile 2x large spacing",
+          "type": "spacing"
+        }
       }
     }
   },
@@ -21,17 +53,61 @@
     "responsive": {
       "mobile": {
         "font": {
-          "xs": { "value": "0.75rem", "description": "Mobile 12px font size" },
-          "sm": { "value": "0.875rem", "description": "Mobile 14px font size" },
-          "base": { "value": "0.875rem", "description": "Mobile 14px base font size" },
-          "lg": { "value": "1rem", "description": "Mobile 16px font size" },
-          "xl": { "value": "1.125rem", "description": "Mobile 18px font size" },
-          "2xl": { "value": "1.25rem", "description": "Mobile 20px font size" },
-          "3xl": { "value": "1.5rem", "description": "Mobile 24px font size" },
-          "4xl": { "value": "1.875rem", "description": "Mobile 30px font size" },
-          "5xl": { "value": "2.25rem", "description": "Mobile 36px font size" },
-          "6xl": { "value": "2.75rem", "description": "Mobile 44px font size" },
-          "7xl": { "value": "3.25rem", "description": "Mobile 52px font size" }
+          "xs": {
+            "value": "0.75rem",
+            "description": "Mobile 12px font size",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "0.875rem",
+            "description": "Mobile 14px font size",
+            "type": "sizing"
+          },
+          "base": {
+            "value": "0.875rem",
+            "description": "Mobile 14px base font size",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "1rem",
+            "description": "Mobile 16px font size",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "1.125rem",
+            "description": "Mobile 18px font size",
+            "type": "sizing"
+          },
+          "2xl": {
+            "value": "1.25rem",
+            "description": "Mobile 20px font size",
+            "type": "sizing"
+          },
+          "3xl": {
+            "value": "1.5rem",
+            "description": "Mobile 24px font size",
+            "type": "sizing"
+          },
+          "4xl": {
+            "value": "1.875rem",
+            "description": "Mobile 30px font size",
+            "type": "sizing"
+          },
+          "5xl": {
+            "value": "2.25rem",
+            "description": "Mobile 36px font size",
+            "type": "sizing"
+          },
+          "6xl": {
+            "value": "2.75rem",
+            "description": "Mobile 44px font size",
+            "type": "sizing"
+          },
+          "7xl": {
+            "value": "3.25rem",
+            "description": "Mobile 52px font size",
+            "type": "sizing"
+          }
         }
       }
     }

@@ -1,19 +1,51 @@
 {
   "breakpoint": {
     "desktop": {
-      "min": { "value": "1024px", "description": "Desktop breakpoint minimum width" },
-      "max": { "value": "9999px", "description": "Desktop breakpoint maximum width" }
+      "min": {
+        "value": "1024px",
+        "description": "Desktop breakpoint minimum width",
+        "type": "other"
+      },
+      "max": {
+        "value": "9999px",
+        "description": "Desktop breakpoint maximum width",
+        "type": "other"
+      }
     }
   },
   "spacing": {
     "responsive": {
       "desktop": {
-        "xs": { "value": "{spacing.base.2}", "description": "Desktop extra small spacing" },
-        "sm": { "value": "{spacing.base.4}", "description": "Desktop small spacing" },
-        "md": { "value": "{spacing.base.6}", "description": "Desktop medium spacing" },
-        "lg": { "value": "{spacing.base.8}", "description": "Desktop large spacing" },
-        "xl": { "value": "{spacing.base.10}", "description": "Desktop extra large spacing" },
-        "2xl": { "value": "{spacing.base.12}", "description": "Desktop 2x large spacing" }
+        "xs": {
+          "value": "{spacing.base.2}",
+          "description": "Desktop extra small spacing",
+          "type": "spacing"
+        },
+        "sm": {
+          "value": "{spacing.base.4}",
+          "description": "Desktop small spacing",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{spacing.base.6}",
+          "description": "Desktop medium spacing",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.base.8}",
+          "description": "Desktop large spacing",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{spacing.base.10}",
+          "description": "Desktop extra large spacing",
+          "type": "spacing"
+        },
+        "2xl": {
+          "value": "{spacing.base.12}",
+          "description": "Desktop 2x large spacing",
+          "type": "spacing"
+        }
       }
     }
   },
@@ -21,19 +53,71 @@
     "responsive": {
       "desktop": {
         "font": {
-          "xs": { "value": "0.75rem", "description": "Desktop 12px font size" },
-          "sm": { "value": "0.875rem", "description": "Desktop 14px font size" },
-          "base": { "value": "1rem", "description": "Desktop 16px base font size" },
-          "lg": { "value": "1.125rem", "description": "Desktop 18px font size" },
-          "xl": { "value": "1.25rem", "description": "Desktop 20px font size" },
-          "2xl": { "value": "1.5rem", "description": "Desktop 24px font size" },
-          "3xl": { "value": "1.875rem", "description": "Desktop 30px font size" },
-          "4xl": { "value": "2.25rem", "description": "Desktop 36px font size" },
-          "5xl": { "value": "3rem", "description": "Desktop 48px font size" },
-          "6xl": { "value": "3.75rem", "description": "Desktop 60px font size" },
-          "7xl": { "value": "4.5rem", "description": "Desktop 72px font size" },
-          "8xl": { "value": "6rem", "description": "Desktop 96px font size" },
-          "9xl": { "value": "8rem", "description": "Desktop 128px font size" }
+          "xs": {
+            "value": "0.75rem",
+            "description": "Desktop 12px font size",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "0.875rem",
+            "description": "Desktop 14px font size",
+            "type": "sizing"
+          },
+          "base": {
+            "value": "1rem",
+            "description": "Desktop 16px base font size",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "1.125rem",
+            "description": "Desktop 18px font size",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "1.25rem",
+            "description": "Desktop 20px font size",
+            "type": "sizing"
+          },
+          "2xl": {
+            "value": "1.5rem",
+            "description": "Desktop 24px font size",
+            "type": "sizing"
+          },
+          "3xl": {
+            "value": "1.875rem",
+            "description": "Desktop 30px font size",
+            "type": "sizing"
+          },
+          "4xl": {
+            "value": "2.25rem",
+            "description": "Desktop 36px font size",
+            "type": "sizing"
+          },
+          "5xl": {
+            "value": "3rem",
+            "description": "Desktop 48px font size",
+            "type": "sizing"
+          },
+          "6xl": {
+            "value": "3.75rem",
+            "description": "Desktop 60px font size",
+            "type": "sizing"
+          },
+          "7xl": {
+            "value": "4.5rem",
+            "description": "Desktop 72px font size",
+            "type": "sizing"
+          },
+          "8xl": {
+            "value": "6rem",
+            "description": "Desktop 96px font size",
+            "type": "sizing"
+          },
+          "9xl": {
+            "value": "8rem",
+            "description": "Desktop 128px font size",
+            "type": "sizing"
+          }
         }
       }
     }

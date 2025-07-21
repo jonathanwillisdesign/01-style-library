@@ -2,43 +2,159 @@
   "typography": {
     "reference": {
       "display": {
-        "fontFamily": { "value": "{font.family.sans}", "description": "Font family for display text" },
-        "letterSpacing": { "value": "{font.letterSpacing.tight}", "description": "Letter spacing for display text" },
-        "lineHeight": { "value": "{font.lineHeight.tight}", "description": "Line height for display text" },
-        "textCase": { "value": "none", "description": "Text case for display text" },
-        "textDecoration": { "value": "none", "description": "Text decoration for display text" },
-        "paragraphSpacing": { "value": "0", "description": "Paragraph spacing for display text" }
+        "fontFamily": {
+          "value": "{font.family.sans}",
+          "description": "Font family for display text",
+          "type": "typography"
+        },
+        "letterSpacing": {
+          "value": "{font.letterSpacing.tight}",
+          "description": "Letter spacing for display text",
+          "type": "typography"
+        },
+        "lineHeight": {
+          "value": "{font.lineHeight.tight}",
+          "description": "Line height for display text",
+          "type": "typography"
+        },
+        "textCase": {
+          "value": "none",
+          "description": "Text case for display text",
+          "type": "typography"
+        },
+        "textDecoration": {
+          "value": "none",
+          "description": "Text decoration for display text",
+          "type": "typography"
+        },
+        "paragraphSpacing": {
+          "value": "0",
+          "description": "Paragraph spacing for display text",
+          "type": "typography"
+        }
       },
       "heading": {
-        "fontFamily": { "value": "{font.family.sans}", "description": "Font family for headings" },
-        "letterSpacing": { "value": "{font.letterSpacing.normal}", "description": "Letter spacing for headings" },
-        "textCase": { "value": "none", "description": "Text case for headings" },
-        "textDecoration": { "value": "none", "description": "Text decoration for headings" },
-        "paragraphSpacing": { "value": "0", "description": "Paragraph spacing for headings" }
+        "fontFamily": {
+          "value": "{font.family.sans}",
+          "description": "Font family for headings",
+          "type": "typography"
+        },
+        "letterSpacing": {
+          "value": "{font.letterSpacing.normal}",
+          "description": "Letter spacing for headings",
+          "type": "typography"
+        },
+        "textCase": {
+          "value": "none",
+          "description": "Text case for headings",
+          "type": "typography"
+        },
+        "textDecoration": {
+          "value": "none",
+          "description": "Text decoration for headings",
+          "type": "typography"
+        },
+        "paragraphSpacing": {
+          "value": "0",
+          "description": "Paragraph spacing for headings",
+          "type": "typography"
+        }
       },
       "body": {
-        "fontFamily": { "value": "{font.family.sans}", "description": "Font family for body text" },
-        "fontWeight": { "value": "{font.weight.normal}", "description": "Font weight for body text" },
-        "letterSpacing": { "value": "{font.letterSpacing.normal}", "description": "Letter spacing for body text" },
-        "lineHeight": { "value": "{font.lineHeight.relaxed}", "description": "Line height for body text" },
-        "textCase": { "value": "none", "description": "Text case for body text" },
-        "textDecoration": { "value": "none", "description": "Text decoration for body text" },
-        "paragraphSpacing": { "value": "16px", "description": "Paragraph spacing for body text" }
+        "fontFamily": {
+          "value": "{font.family.sans}",
+          "description": "Font family for body text",
+          "type": "typography"
+        },
+        "fontWeight": {
+          "value": "{font.weight.normal}",
+          "description": "Font weight for body text",
+          "type": "typography"
+        },
+        "letterSpacing": {
+          "value": "{font.letterSpacing.normal}",
+          "description": "Letter spacing for body text",
+          "type": "typography"
+        },
+        "lineHeight": {
+          "value": "{font.lineHeight.relaxed}",
+          "description": "Line height for body text",
+          "type": "typography"
+        },
+        "textCase": {
+          "value": "none",
+          "description": "Text case for body text",
+          "type": "typography"
+        },
+        "textDecoration": {
+          "value": "none",
+          "description": "Text decoration for body text",
+          "type": "typography"
+        },
+        "paragraphSpacing": {
+          "value": "16px",
+          "description": "Paragraph spacing for body text",
+          "type": "typography"
+        }
       },
       "caption": {
-        "fontFamily": { "value": "{font.family.sans}", "description": "Font family for captions" },
-        "fontSize": { "value": "{size.font.xs}", "description": "Font size for captions" },
-        "lineHeight": { "value": "{font.lineHeight.normal}", "description": "Line height for captions" },
-        "letterSpacing": { "value": "{font.letterSpacing.normal}", "description": "Letter spacing for captions" },
-        "textDecoration": { "value": "none", "description": "Text decoration for captions" },
-        "paragraphSpacing": { "value": "8px", "description": "Paragraph spacing for captions" }
+        "fontFamily": {
+          "value": "{font.family.sans}",
+          "description": "Font family for captions",
+          "type": "typography"
+        },
+        "fontSize": {
+          "value": "{size.font.xs}",
+          "description": "Font size for captions",
+          "type": "typography"
+        },
+        "lineHeight": {
+          "value": "{font.lineHeight.normal}",
+          "description": "Line height for captions",
+          "type": "typography"
+        },
+        "letterSpacing": {
+          "value": "{font.letterSpacing.normal}",
+          "description": "Letter spacing for captions",
+          "type": "typography"
+        },
+        "textDecoration": {
+          "value": "none",
+          "description": "Text decoration for captions",
+          "type": "typography"
+        },
+        "paragraphSpacing": {
+          "value": "8px",
+          "description": "Paragraph spacing for captions",
+          "type": "typography"
+        }
       },
       "code": {
-        "fontFamily": { "value": "{font.family.mono}", "description": "Font family for code" },
-        "fontWeight": { "value": "{font.weight.normal}", "description": "Font weight for code" },
-        "letterSpacing": { "value": "{font.letterSpacing.normal}", "description": "Letter spacing for code" },
-        "textCase": { "value": "none", "description": "Text case for code" },
-        "textDecoration": { "value": "none", "description": "Text decoration for code" }
+        "fontFamily": {
+          "value": "{font.family.mono}",
+          "description": "Font family for code",
+          "type": "typography"
+        },
+        "fontWeight": {
+          "value": "{font.weight.normal}",
+          "description": "Font weight for code",
+          "type": "typography"
+        },
+        "letterSpacing": {
+          "value": "{font.letterSpacing.normal}",
+          "description": "Letter spacing for code",
+          "type": "typography"
+        },
+        "textCase": {
+          "value": "none",
+          "description": "Text case for code",
+          "type": "typography"
+        },
+        "textDecoration": {
+          "value": "none",
+          "description": "Text decoration for code",
+          "type": "typography"
+        }
       }
     },
     "display": {

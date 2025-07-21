@@ -1,69 +1,209 @@
 {
   "color": {
     "background": {
-      "default": { "value": "{color.primitives.white}", "description": "Default page background" },
-      "surface": { "value": "{color.primitives.white}", "description": "Surface background for cards, popovers" }
+      "default": {
+        "value": "{color.primitives.white}",
+        "description": "Default page background",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{color.primitives.white}",
+        "description": "Surface background for cards, popovers",
+        "type": "color"
+      }
     },
     "foreground": {
-      "default": { "value": "{color.primitives.black.950}", "description": "Default text color" },
-      "surface": { "value": "{color.primitives.black.950}", "description": "Text on surface backgrounds" }
+      "default": {
+        "value": "{color.primitives.black.950}",
+        "description": "Default text color",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{color.primitives.black.950}",
+        "description": "Text on surface backgrounds",
+        "type": "color"
+      }
     },
     "primary": {
-      "default": { "value": "{color.primitives.black.900}", "description": "Primary action color" },
-      "foreground": { "value": "{color.primitives.black.50}", "description": "Text on primary background" }
+      "default": {
+        "value": "{color.primitives.black.900}",
+        "description": "Primary action color",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Text on primary background",
+        "type": "color"
+      }
     },
     "secondary": {
-      "default": { "value": "{color.primitives.black.100}", "description": "Secondary action color" },
-      "foreground": { "value": "{color.primitives.black.900}", "description": "Text on secondary background" }
+      "default": {
+        "value": "{color.primitives.black.100}",
+        "description": "Secondary action color",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.900}",
+        "description": "Text on secondary background",
+        "type": "color"
+      }
     },
     "accent": {
-      "default": { "value": "{color.primitives.black.100}", "description": "Accent color" },
-      "foreground": { "value": "{color.primitives.black.900}", "description": "Text on accent background" }
+      "default": {
+        "value": "{color.primitives.black.100}",
+        "description": "Accent color",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.900}",
+        "description": "Text on accent background",
+        "type": "color"
+      }
     },
     "muted": {
-      "default": { "value": "{color.primitives.black.100}", "description": "Muted background color" },
-      "foreground": { "value": "{color.primitives.black.500}", "description": "Muted text color" }
+      "default": {
+        "value": "{color.primitives.black.100}",
+        "description": "Muted background color",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.500}",
+        "description": "Muted text color",
+        "type": "color"
+      }
     },
     "destructive": {
-      "default": { "value": "{color.primitives.red.default}", "description": "Destructive action color" },
-      "foreground": { "value": "{color.primitives.black.50}", "description": "Text on destructive background" }
+      "default": {
+        "value": "{color.primitives.red.default}",
+        "description": "Destructive action color",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Text on destructive background",
+        "type": "color"
+      }
     },
     "border": {
-      "default": { "value": "{color.primitives.black.200}", "description": "Default border color" }
+      "default": {
+        "value": "{color.primitives.black.200}",
+        "description": "Default border color",
+        "type": "color"
+      }
     },
     "input": {
-      "border": { "value": "{color.primitives.black.200}", "description": "Input border color" }
+      "border": {
+        "value": "{color.primitives.black.200}",
+        "description": "Input border color",
+        "type": "color"
+      }
     },
     "ring": {
-      "default": { "value": "{color.primitives.black.400}", "description": "Focus ring color" }
+      "default": {
+        "value": "{color.primitives.black.400}",
+        "description": "Focus ring color",
+        "type": "color"
+      }
     },
     "chart": {
-      "1": { "value": "{color.primitives.chart.1.light}", "description": "Chart color 1 for light theme" },
-      "2": { "value": "{color.primitives.chart.2.light}", "description": "Chart color 2 for light theme" },
-      "3": { "value": "{color.primitives.chart.3.light}", "description": "Chart color 3 for light theme" },
-      "4": { "value": "{color.primitives.chart.4.light}", "description": "Chart color 4 for light theme" },
-      "5": { "value": "{color.primitives.chart.5.light}", "description": "Chart color 5 for light theme" }
+      "1": {
+        "value": "{color.primitives.chart.1.light}",
+        "description": "Chart color 1 for light theme",
+        "type": "color"
+      },
+      "2": {
+        "value": "{color.primitives.chart.2.light}",
+        "description": "Chart color 2 for light theme",
+        "type": "color"
+      },
+      "3": {
+        "value": "{color.primitives.chart.3.light}",
+        "description": "Chart color 3 for light theme",
+        "type": "color"
+      },
+      "4": {
+        "value": "{color.primitives.chart.4.light}",
+        "description": "Chart color 4 for light theme",
+        "type": "color"
+      },
+      "5": {
+        "value": "{color.primitives.chart.5.light}",
+        "description": "Chart color 5 for light theme",
+        "type": "color"
+      }
     }
   },
   "component": {
     "card": {
-      "background": { "value": "{color.background.surface}", "description": "Card background in light theme" },
-      "foreground": { "value": "{color.foreground.surface}", "description": "Card text in light theme" },
-      "radius": { "value": "{radius.primitives.default}", "description": "Card border radius" }
+      "background": {
+        "value": "{color.background.surface}",
+        "description": "Card background in light theme",
+        "type": "other"
+      },
+      "foreground": {
+        "value": "{color.foreground.surface}",
+        "description": "Card text in light theme",
+        "type": "other"
+      },
+      "radius": {
+        "value": "{radius.primitives.default}",
+        "description": "Card border radius",
+        "type": "other"
+      }
     },
     "popover": {
-      "background": { "value": "{color.background.surface}", "description": "Popover background in light theme" },
-      "foreground": { "value": "{color.foreground.surface}", "description": "Popover text in light theme" }
+      "background": {
+        "value": "{color.background.surface}",
+        "description": "Popover background in light theme",
+        "type": "other"
+      },
+      "foreground": {
+        "value": "{color.foreground.surface}",
+        "description": "Popover text in light theme",
+        "type": "other"
+      }
     },
     "sidebar": {
-      "background": { "value": "{color.primitives.black.50}", "description": "Sidebar background in light theme" },
-      "foreground": { "value": "{color.primitives.black.950}", "description": "Sidebar text in light theme" },
-      "primary": { "value": "{color.primitives.black.900}", "description": "Sidebar primary color in light theme" },
-      "primary-foreground": { "value": "{color.primitives.black.50}", "description": "Sidebar primary text in light theme" },
-      "accent": { "value": "{color.primitives.black.100}", "description": "Sidebar accent color in light theme" },
-      "accent-foreground": { "value": "{color.primitives.black.900}", "description": "Sidebar accent text in light theme" },
-      "border": { "value": "{color.border.default}", "description": "Sidebar border in light theme" },
-      "ring": { "value": "{color.ring.default}", "description": "Sidebar focus ring in light theme" }
+      "background": {
+        "value": "{color.primitives.black.50}",
+        "description": "Sidebar background in light theme",
+        "type": "other"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.950}",
+        "description": "Sidebar text in light theme",
+        "type": "other"
+      },
+      "primary": {
+        "value": "{color.primitives.black.900}",
+        "description": "Sidebar primary color in light theme",
+        "type": "other"
+      },
+      "primary-foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Sidebar primary text in light theme",
+        "type": "other"
+      },
+      "accent": {
+        "value": "{color.primitives.black.100}",
+        "description": "Sidebar accent color in light theme",
+        "type": "other"
+      },
+      "accent-foreground": {
+        "value": "{color.primitives.black.900}",
+        "description": "Sidebar accent text in light theme",
+        "type": "other"
+      },
+      "border": {
+        "value": "{color.border.default}",
+        "description": "Sidebar border in light theme",
+        "type": "other"
+      },
+      "ring": {
+        "value": "{color.ring.default}",
+        "description": "Sidebar focus ring in light theme",
+        "type": "other"
+      }
     }
   }
 }

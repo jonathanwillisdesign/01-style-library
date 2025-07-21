@@ -1,0 +1,79 @@
+[
+  {
+    "id": "307c21e7842a0f309a17365b32f47e381d53bffe",
+    "name": "mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/colors": "source",
+      "primitives/spacing": "enabled",
+      "primitives/typography": "enabled",
+      "responsive/mobile": "enabled",
+      "semantic/dark": "source",
+      "semantic/light": "source",
+      "semantic/typography": "source"
+    },
+    "group": "responsive"
+  },
+  {
+    "id": "a60adeda2a5f9afebbf463c557ac0896ddac3a0f",
+    "name": "tablet",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/colors": "source",
+      "primitives/spacing": "enabled",
+      "primitives/typography": "enabled",
+      "responsive/tablet": "enabled",
+      "semantic/typography": "source",
+      "semantic/dark": "source",
+      "semantic/light": "source"
+    },
+    "group": "responsive"
+  },
+  {
+    "id": "6f7adb003f3a78ca99a22c5a3f1467b9a28ce507",
+    "name": "desktop",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/colors": "source",
+      "primitives/spacing": "enabled",
+      "primitives/typography": "enabled",
+      "responsive/desktop": "enabled",
+      "semantic/dark": "source",
+      "semantic/light": "source",
+      "semantic/typography": "source"
+    },
+    "group": "responsive"
+  },
+  {
+    "id": "43f477874e2b6aabd429b1c307bb509a9874362d",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/colors": "enabled",
+      "primitives/spacing": "source",
+      "primitives/typography": "source",
+      "responsive/desktop": "source",
+      "responsive/mobile": "source",
+      "responsive/tablet": "source",
+      "semantic/light": "enabled",
+      "semantic/typography": "source"
+    },
+    "group": "semantic"
+  },
+  {
+    "id": "2344980306b88abda315385f962af23b2c939d9c",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/colors": "enabled",
+      "primitives/spacing": "source",
+      "primitives/typography": "source",
+      "responsive/desktop": "source",
+      "responsive/mobile": "source",
+      "responsive/tablet": "source",
+      "semantic/dark": "enabled",
+      "semantic/typography": "source"
+    },
+    "group": "semantic"
+  }
+]

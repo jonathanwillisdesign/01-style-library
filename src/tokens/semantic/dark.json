@@ -1,69 +1,209 @@
 {
   "color": {
     "background": {
-      "default": { "value": "{color.primitives.black.950}", "description": "Default page background in dark theme" },
-      "surface": { "value": "{color.primitives.black.800}", "description": "Surface background for cards, popovers in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.950}",
+        "description": "Default page background in dark theme",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{color.primitives.black.800}",
+        "description": "Surface background for cards, popovers in dark theme",
+        "type": "color"
+      }
     },
     "foreground": {
-      "default": { "value": "{color.primitives.black.50}", "description": "Default text color in dark theme" },
-      "surface": { "value": "{color.primitives.black.50}", "description": "Text on surface backgrounds in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.50}",
+        "description": "Default text color in dark theme",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{color.primitives.black.50}",
+        "description": "Text on surface backgrounds in dark theme",
+        "type": "color"
+      }
     },
     "primary": {
-      "default": { "value": "{color.primitives.black.200}", "description": "Primary action color in dark theme" },
-      "foreground": { "value": "{color.primitives.black.900}", "description": "Text on primary background in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.200}",
+        "description": "Primary action color in dark theme",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.900}",
+        "description": "Text on primary background in dark theme",
+        "type": "color"
+      }
     },
     "secondary": {
-      "default": { "value": "{color.primitives.black.800}", "description": "Secondary action color in dark theme" },
-      "foreground": { "value": "{color.primitives.black.50}", "description": "Text on secondary background in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.800}",
+        "description": "Secondary action color in dark theme",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Text on secondary background in dark theme",
+        "type": "color"
+      }
     },
     "accent": {
-      "default": { "value": "{color.primitives.black.700}", "description": "Accent color in dark theme" },
-      "foreground": { "value": "{color.primitives.black.50}", "description": "Text on accent background in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.700}",
+        "description": "Accent color in dark theme",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Text on accent background in dark theme",
+        "type": "color"
+      }
     },
     "muted": {
-      "default": { "value": "{color.primitives.black.800}", "description": "Muted background color in dark theme" },
-      "foreground": { "value": "{color.primitives.black.400}", "description": "Muted text color in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.800}",
+        "description": "Muted background color in dark theme",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.400}",
+        "description": "Muted text color in dark theme",
+        "type": "color"
+      }
     },
     "destructive": {
-      "default": { "value": "{color.primitives.red.light}", "description": "Destructive action color in dark theme" },
-      "foreground": { "value": "{color.primitives.black.50}", "description": "Text on destructive background in dark theme" }
+      "default": {
+        "value": "{color.primitives.red.light}",
+        "description": "Destructive action color in dark theme",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Text on destructive background in dark theme",
+        "type": "color"
+      }
     },
     "border": {
-      "default": { "value": "oklch(1 0 0 / 10%)", "description": "Default border color in dark theme" }
+      "default": {
+        "value": "oklch(1 0 0 / 10%)",
+        "description": "Default border color in dark theme",
+        "type": "color"
+      }
     },
     "input": {
-      "border": { "value": "oklch(1 0 0 / 15%)", "description": "Input border color in dark theme" }
+      "border": {
+        "value": "oklch(1 0 0 / 15%)",
+        "description": "Input border color in dark theme",
+        "type": "color"
+      }
     },
     "ring": {
-      "default": { "value": "{color.primitives.black.500}", "description": "Focus ring color in dark theme" }
+      "default": {
+        "value": "{color.primitives.black.500}",
+        "description": "Focus ring color in dark theme",
+        "type": "color"
+      }
     },
     "chart": {
-      "1": { "value": "{color.primitives.chart.1.dark}", "description": "Chart color 1 for dark theme" },
-      "2": { "value": "{color.primitives.chart.2.dark}", "description": "Chart color 2 for dark theme" },
-      "3": { "value": "{color.primitives.chart.3.dark}", "description": "Chart color 3 for dark theme" },
-      "4": { "value": "{color.primitives.chart.4.dark}", "description": "Chart color 4 for dark theme" },
-      "5": { "value": "{color.primitives.chart.5.dark}", "description": "Chart color 5 for dark theme" }
+      "1": {
+        "value": "{color.primitives.chart.1.dark}",
+        "description": "Chart color 1 for dark theme",
+        "type": "color"
+      },
+      "2": {
+        "value": "{color.primitives.chart.2.dark}",
+        "description": "Chart color 2 for dark theme",
+        "type": "color"
+      },
+      "3": {
+        "value": "{color.primitives.chart.3.dark}",
+        "description": "Chart color 3 for dark theme",
+        "type": "color"
+      },
+      "4": {
+        "value": "{color.primitives.chart.4.dark}",
+        "description": "Chart color 4 for dark theme",
+        "type": "color"
+      },
+      "5": {
+        "value": "{color.primitives.chart.5.dark}",
+        "description": "Chart color 5 for dark theme",
+        "type": "color"
+      }
     }
   },
   "component": {
     "card": {
-      "background": { "value": "{color.primitives.black.900}", "description": "Card background in dark theme" },
-      "foreground": { "value": "{color.foreground.surface}", "description": "Card text in dark theme" },
-      "radius": { "value": "{radius.primitives.default}", "description": "Card border radius" }
+      "background": {
+        "value": "{color.primitives.black.900}",
+        "description": "Card background in dark theme",
+        "type": "other"
+      },
+      "foreground": {
+        "value": "{color.foreground.surface}",
+        "description": "Card text in dark theme",
+        "type": "other"
+      },
+      "radius": {
+        "value": "{radius.primitives.default}",
+        "description": "Card border radius",
+        "type": "other"
+      }
     },
     "popover": {
-      "background": { "value": "{color.primitives.black.800}", "description": "Popover background in dark theme" },
-      "foreground": { "value": "{color.foreground.surface}", "description": "Popover text in dark theme" }
+      "background": {
+        "value": "{color.primitives.black.800}",
+        "description": "Popover background in dark theme",
+        "type": "other"
+      },
+      "foreground": {
+        "value": "{color.foreground.surface}",
+        "description": "Popover text in dark theme",
+        "type": "other"
+      }
     },
     "sidebar": {
-      "background": { "value": "{color.primitives.black.900}", "description": "Sidebar background in dark theme" },
-      "foreground": { "value": "{color.primitives.black.50}", "description": "Sidebar text in dark theme" },
-      "primary": { "value": "oklch(0.488 0.243 264.376)", "description": "Sidebar primary color in dark theme" },
-      "primary-foreground": { "value": "{color.primitives.black.50}", "description": "Sidebar primary text in dark theme" },
-      "accent": { "value": "{color.primitives.black.800}", "description": "Sidebar accent color in dark theme" },
-      "accent-foreground": { "value": "{color.primitives.black.50}", "description": "Sidebar accent text in dark theme" },
-      "border": { "value": "oklch(1 0 0 / 10%)", "description": "Sidebar border in dark theme" },
-      "ring": { "value": "{color.primitives.black.600}", "description": "Sidebar focus ring in dark theme" }
+      "background": {
+        "value": "{color.primitives.black.900}",
+        "description": "Sidebar background in dark theme",
+        "type": "other"
+      },
+      "foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Sidebar text in dark theme",
+        "type": "other"
+      },
+      "primary": {
+        "value": "oklch(0.488 0.243 264.376)",
+        "description": "Sidebar primary color in dark theme",
+        "type": "other"
+      },
+      "primary-foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Sidebar primary text in dark theme",
+        "type": "other"
+      },
+      "accent": {
+        "value": "{color.primitives.black.800}",
+        "description": "Sidebar accent color in dark theme",
+        "type": "other"
+      },
+      "accent-foreground": {
+        "value": "{color.primitives.black.50}",
+        "description": "Sidebar accent text in dark theme",
+        "type": "other"
+      },
+      "border": {
+        "value": "oklch(1 0 0 / 10%)",
+        "description": "Sidebar border in dark theme",
+        "type": "other"
+      },
+      "ring": {
+        "value": "{color.primitives.black.600}",
+        "description": "Sidebar focus ring in dark theme",
+        "type": "other"
+      }
     }
   }
 }
