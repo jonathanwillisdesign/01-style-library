@@ -2,7 +2,8 @@
   "font": {
     "family": {
       "sans": {
-        "value": [
+        "$type": "other",
+        "$value": [
           "Inter",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -17,20 +18,20 @@
           "\"Segoe UI Symbol\"",
           "\"Noto Color Emoji\""
         ],
-        "description": "Default sans-serif font family",
-        "type": "other"
+        "$description": "Default sans-serif font family"
       },
       "serif": {
-        "value": [
+        "$type": "other",
+        "$value": [
           "\"Times New Roman\"",
           "Times",
           "serif"
         ],
-        "description": "Default serif font family",
-        "type": "other"
+        "$description": "Default serif font family"
       },
       "mono": {
-        "value": [
+        "$type": "other",
+        "$value": [
           "\"JetBrains Mono\"",
           "Menlo",
           "Monaco",
@@ -39,119 +40,118 @@
           "\"Courier New\"",
           "monospace"
         ],
-        "description": "Default monospace font family",
-        "type": "other"
+        "$description": "Default monospace font family"
       }
     },
     "weight": {
       "thin": {
-        "value": "100",
-        "description": "Thin font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "100",
+        "$description": "Thin font weight"
       },
       "extralight": {
-        "value": "200",
-        "description": "Extra light font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "200",
+        "$description": "Extra light font weight"
       },
       "light": {
-        "value": "300",
-        "description": "Light font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "300",
+        "$description": "Light font weight"
       },
       "normal": {
-        "value": "400",
-        "description": "Normal font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "400",
+        "$description": "Normal font weight"
       },
       "medium": {
-        "value": "500",
-        "description": "Medium font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "500",
+        "$description": "Medium font weight"
       },
       "semibold": {
-        "value": "600",
-        "description": "Semi bold font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "600",
+        "$description": "Semi bold font weight"
       },
       "bold": {
-        "value": "700",
-        "description": "Bold font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "700",
+        "$description": "Bold font weight"
       },
       "extrabold": {
-        "value": "800",
-        "description": "Extra bold font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "800",
+        "$description": "Extra bold font weight"
       },
       "black": {
-        "value": "900",
-        "description": "Black font weight",
-        "type": "other"
+        "$type": "other",
+        "$value": "900",
+        "$description": "Black font weight"
       }
     },
     "lineHeight": {
       "none": {
-        "value": "1",
-        "description": "No line height",
-        "type": "other"
+        "$type": "other",
+        "$value": "1",
+        "$description": "No line height"
       },
       "tight": {
-        "value": "1.25",
-        "description": "Tight line height",
-        "type": "other"
+        "$type": "other",
+        "$value": "1.25",
+        "$description": "Tight line height"
       },
       "snug": {
-        "value": "1.375",
-        "description": "Snug line height",
-        "type": "other"
+        "$type": "other",
+        "$value": "1.375",
+        "$description": "Snug line height"
       },
       "normal": {
-        "value": "1.5",
-        "description": "Normal line height",
-        "type": "other"
+        "$type": "other",
+        "$value": "1.5",
+        "$description": "Normal line height"
       },
       "relaxed": {
-        "value": "1.625",
-        "description": "Relaxed line height",
-        "type": "other"
+        "$type": "other",
+        "$value": "1.625",
+        "$description": "Relaxed line height"
       },
       "loose": {
-        "value": "2",
-        "description": "Loose line height",
-        "type": "other"
+        "$type": "other",
+        "$value": "2",
+        "$description": "Loose line height"
       }
     },
     "letterSpacing": {
       "tighter": {
-        "value": "-0.05em",
-        "description": "Tighter letter spacing",
-        "type": "other"
+        "$type": "other",
+        "$value": "-0.05em",
+        "$description": "Tighter letter spacing"
       },
       "tight": {
-        "value": "-0.025em",
-        "description": "Tight letter spacing",
-        "type": "other"
+        "$type": "other",
+        "$value": "-0.025em",
+        "$description": "Tight letter spacing"
       },
       "normal": {
-        "value": "0",
-        "description": "Normal letter spacing",
-        "type": "other"
+        "$type": "other",
+        "$value": "0",
+        "$description": "Normal letter spacing"
       },
       "wide": {
-        "value": "0.025em",
-        "description": "Wide letter spacing",
-        "type": "other"
+        "$type": "other",
+        "$value": "0.025em",
+        "$description": "Wide letter spacing"
       },
       "wider": {
-        "value": "0.05em",
-        "description": "Wider letter spacing",
-        "type": "other"
+        "$type": "other",
+        "$value": "0.05em",
+        "$description": "Wider letter spacing"
       },
       "widest": {
-        "value": "0.1em",
-        "description": "Widest letter spacing",
-        "type": "other"
+        "$type": "other",
+        "$value": "0.1em",
+        "$description": "Widest letter spacing"
       }
     }
   }
