@@ -3,137 +3,137 @@
     "primitives": {
       "black": {
         "50": {
-          "value": "oklch(0.985 0 0)",
-          "description": "Lightest neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.985 0 0)",
+          "$description": "Lightest neutral"
         },
         "100": {
-          "value": "oklch(0.97 0 0)",
-          "description": "Very light neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.97 0 0)",
+          "$description": "Very light neutral"
         },
         "200": {
-          "value": "oklch(0.922 0 0)",
-          "description": "Light neutral for borders",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.922 0 0)",
+          "$description": "Light neutral for borders"
         },
         "300": {
-          "value": "oklch(0.828 0 0)",
-          "description": "Medium light neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.828 0 0)",
+          "$description": "Medium light neutral"
         },
         "400": {
-          "value": "oklch(0.708 0 0)",
-          "description": "Medium neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.708 0 0)",
+          "$description": "Medium neutral"
         },
         "500": {
-          "value": "oklch(0.556 0 0)",
-          "description": "Medium dark neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.556 0 0)",
+          "$description": "Medium dark neutral"
         },
         "600": {
-          "value": "oklch(0.439 0 0)",
-          "description": "Dark neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.439 0 0)",
+          "$description": "Dark neutral"
         },
         "700": {
-          "value": "oklch(0.371 0 0)",
-          "description": "Darker neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.371 0 0)",
+          "$description": "Darker neutral"
         },
         "800": {
-          "value": "oklch(0.269 0 0)",
-          "description": "Very dark neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.269 0 0)",
+          "$description": "Very dark neutral"
         },
         "900": {
-          "value": "oklch(0.205 0 0)",
-          "description": "Darkest neutral",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.205 0 0)",
+          "$description": "Darkest neutral"
         },
         "950": {
-          "value": "oklch(0.145 0 0)",
-          "description": "Extreme dark",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.145 0 0)",
+          "$description": "Extreme dark"
         }
       },
       "white": {
-        "value": "oklch(1 0 0)",
-        "description": "Pure white",
-        "type": "color"
+        "$type": "color",
+        "$value": "oklch(1 0 0)",
+        "$description": "Pure white"
       },
       "red": {
         "light": {
-          "value": "oklch(0.704 0.191 22.216)",
-          "description": "Light red for dark theme destructive",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.704 0.191 22.216)",
+          "$description": "Light red for dark theme destructive"
         },
         "default": {
-          "value": "oklch(0.577 0.245 27.325)",
-          "description": "Default red for light theme destructive",
-          "type": "color"
+          "$type": "color",
+          "$value": "oklch(0.577 0.245 27.325)",
+          "$description": "Default red for light theme destructive"
         }
       },
       "chart": {
         "1": {
           "light": {
-            "value": "oklch(0.646 0.222 41.116)",
-            "description": "Chart color 1 for light theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.646 0.222 41.116)",
+            "$description": "Chart color 1 for light theme"
           },
           "dark": {
-            "value": "oklch(0.488 0.243 264.376)",
-            "description": "Chart color 1 for dark theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.488 0.243 264.376)",
+            "$description": "Chart color 1 for dark theme"
           }
         },
         "2": {
           "light": {
-            "value": "oklch(0.6 0.118 184.704)",
-            "description": "Chart color 2 for light theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.6 0.118 184.704)",
+            "$description": "Chart color 2 for light theme"
           },
           "dark": {
-            "value": "oklch(0.696 0.17 162.48)",
-            "description": "Chart color 2 for dark theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.696 0.17 162.48)",
+            "$description": "Chart color 2 for dark theme"
           }
         },
         "3": {
           "light": {
-            "value": "oklch(0.398 0.07 227.392)",
-            "description": "Chart color 3 for light theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.398 0.07 227.392)",
+            "$description": "Chart color 3 for light theme"
           },
           "dark": {
-            "value": "oklch(0.769 0.188 70.08)",
-            "description": "Chart color 3 for dark theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.769 0.188 70.08)",
+            "$description": "Chart color 3 for dark theme"
           }
         },
         "4": {
           "light": {
-            "value": "oklch(0.828 0.189 84.429)",
-            "description": "Chart color 4 for light theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.828 0.189 84.429)",
+            "$description": "Chart color 4 for light theme"
           },
           "dark": {
-            "value": "oklch(0.627 0.265 303.9)",
-            "description": "Chart color 4 for dark theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.627 0.265 303.9)",
+            "$description": "Chart color 4 for dark theme"
           }
         },
         "5": {
           "light": {
-            "value": "oklch(0.769 0.188 70.08)",
-            "description": "Chart color 5 for light theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.769 0.188 70.08)",
+            "$description": "Chart color 5 for light theme"
           },
           "dark": {
-            "value": "oklch(0.645 0.246 16.439)",
-            "description": "Chart color 5 for dark theme",
-            "type": "color"
+            "$type": "color",
+            "$value": "oklch(0.645 0.246 16.439)",
+            "$description": "Chart color 5 for dark theme"
           }
         }
       }

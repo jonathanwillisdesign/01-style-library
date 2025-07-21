@@ -3,164 +3,164 @@
     "reference": {
       "display": {
         "fontFamily": {
-          "value": "{font.family.sans}",
-          "description": "Font family for display text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.family.sans}",
+          "$description": "Font family for display text"
         },
         "letterSpacing": {
-          "value": "{font.letterSpacing.tight}",
-          "description": "Letter spacing for display text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.letterSpacing.tight}",
+          "$description": "Letter spacing for display text"
         },
         "lineHeight": {
-          "value": "{font.lineHeight.tight}",
-          "description": "Line height for display text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.lineHeight.tight}",
+          "$description": "Line height for display text"
         },
         "textCase": {
-          "value": "none",
-          "description": "Text case for display text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text case for display text"
         },
         "textDecoration": {
-          "value": "none",
-          "description": "Text decoration for display text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text decoration for display text"
         },
         "paragraphSpacing": {
-          "value": "0",
-          "description": "Paragraph spacing for display text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "0",
+          "$description": "Paragraph spacing for display text"
         }
       },
       "heading": {
         "fontFamily": {
-          "value": "{font.family.sans}",
-          "description": "Font family for headings",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.family.sans}",
+          "$description": "Font family for headings"
         },
         "letterSpacing": {
-          "value": "{font.letterSpacing.normal}",
-          "description": "Letter spacing for headings",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.letterSpacing.normal}",
+          "$description": "Letter spacing for headings"
         },
         "textCase": {
-          "value": "none",
-          "description": "Text case for headings",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text case for headings"
         },
         "textDecoration": {
-          "value": "none",
-          "description": "Text decoration for headings",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text decoration for headings"
         },
         "paragraphSpacing": {
-          "value": "0",
-          "description": "Paragraph spacing for headings",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "0",
+          "$description": "Paragraph spacing for headings"
         }
       },
       "body": {
         "fontFamily": {
-          "value": "{font.family.sans}",
-          "description": "Font family for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.family.sans}",
+          "$description": "Font family for body text"
         },
         "fontWeight": {
-          "value": "{font.weight.normal}",
-          "description": "Font weight for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.weight.normal}",
+          "$description": "Font weight for body text"
         },
         "letterSpacing": {
-          "value": "{font.letterSpacing.normal}",
-          "description": "Letter spacing for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.letterSpacing.normal}",
+          "$description": "Letter spacing for body text"
         },
         "lineHeight": {
-          "value": "{font.lineHeight.relaxed}",
-          "description": "Line height for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.lineHeight.relaxed}",
+          "$description": "Line height for body text"
         },
         "textCase": {
-          "value": "none",
-          "description": "Text case for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text case for body text"
         },
         "textDecoration": {
-          "value": "none",
-          "description": "Text decoration for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text decoration for body text"
         },
         "paragraphSpacing": {
-          "value": "16px",
-          "description": "Paragraph spacing for body text",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "16px",
+          "$description": "Paragraph spacing for body text"
         }
       },
       "caption": {
         "fontFamily": {
-          "value": "{font.family.sans}",
-          "description": "Font family for captions",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.family.sans}",
+          "$description": "Font family for captions"
         },
         "fontSize": {
-          "value": "{size.font.xs}",
-          "description": "Font size for captions",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{size.font.xs}",
+          "$description": "Font size for captions"
         },
         "lineHeight": {
-          "value": "{font.lineHeight.normal}",
-          "description": "Line height for captions",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.lineHeight.normal}",
+          "$description": "Line height for captions"
         },
         "letterSpacing": {
-          "value": "{font.letterSpacing.normal}",
-          "description": "Letter spacing for captions",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.letterSpacing.normal}",
+          "$description": "Letter spacing for captions"
         },
         "textDecoration": {
-          "value": "none",
-          "description": "Text decoration for captions",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text decoration for captions"
         },
         "paragraphSpacing": {
-          "value": "8px",
-          "description": "Paragraph spacing for captions",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "8px",
+          "$description": "Paragraph spacing for captions"
         }
       },
       "code": {
         "fontFamily": {
-          "value": "{font.family.mono}",
-          "description": "Font family for code",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.family.mono}",
+          "$description": "Font family for code"
         },
         "fontWeight": {
-          "value": "{font.weight.normal}",
-          "description": "Font weight for code",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.weight.normal}",
+          "$description": "Font weight for code"
         },
         "letterSpacing": {
-          "value": "{font.letterSpacing.normal}",
-          "description": "Letter spacing for code",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "{font.letterSpacing.normal}",
+          "$description": "Letter spacing for code"
         },
         "textCase": {
-          "value": "none",
-          "description": "Text case for code",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text case for code"
         },
         "textDecoration": {
-          "value": "none",
-          "description": "Text decoration for code",
-          "type": "typography"
+          "$type": "typography",
+          "$value": "none",
+          "$description": "Text decoration for code"
         }
       }
     },
     "display": {
       "large": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.display.fontFamily}",
           "fontWeight": "{font.weight.black}",
           "fontSize": "{size.font.7xl}",
@@ -170,11 +170,11 @@
           "textCase": "{typography.reference.display.textCase}",
           "textDecoration": "{typography.reference.display.textDecoration}"
         },
-        "description": "Large display text for hero sections and major headings"
+        "$description": "Large display text for hero sections and major headings"
       },
       "medium": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.display.fontFamily}",
           "fontWeight": "{font.weight.extrabold}",
           "fontSize": "{size.font.5xl}",
@@ -184,11 +184,11 @@
           "textCase": "{typography.reference.display.textCase}",
           "textDecoration": "{typography.reference.display.textDecoration}"
         },
-        "description": "Medium display text for section headings"
+        "$description": "Medium display text for section headings"
       },
       "small": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.display.fontFamily}",
           "fontWeight": "{font.weight.bold}",
           "fontSize": "{size.font.4xl}",
@@ -198,13 +198,13 @@
           "textCase": "{typography.reference.display.textCase}",
           "textDecoration": "{typography.reference.display.textDecoration}"
         },
-        "description": "Small display text for card titles and important headings"
+        "$description": "Small display text for card titles and important headings"
       }
     },
     "heading": {
       "large": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.heading.fontFamily}",
           "fontWeight": "{font.weight.bold}",
           "fontSize": "{size.font.3xl}",
@@ -214,11 +214,11 @@
           "textCase": "{typography.reference.heading.textCase}",
           "textDecoration": "{typography.reference.heading.textDecoration}"
         },
-        "description": "Large headings for major sections"
+        "$description": "Large headings for major sections"
       },
       "medium": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.heading.fontFamily}",
           "fontWeight": "{font.weight.semibold}",
           "fontSize": "{size.font.xl}",
@@ -228,11 +228,11 @@
           "textCase": "{typography.reference.heading.textCase}",
           "textDecoration": "{typography.reference.heading.textDecoration}"
         },
-        "description": "Medium headings for subsections"
+        "$description": "Medium headings for subsections"
       },
       "small": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.heading.fontFamily}",
           "fontWeight": "{font.weight.semibold}",
           "fontSize": "{size.font.lg}",
@@ -242,13 +242,13 @@
           "textCase": "{typography.reference.heading.textCase}",
           "textDecoration": "{typography.reference.heading.textDecoration}"
         },
-        "description": "Small headings for content blocks"
+        "$description": "Small headings for content blocks"
       }
     },
     "body": {
       "large": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.body.fontFamily}",
           "fontWeight": "{typography.reference.body.fontWeight}",
           "fontSize": "{size.font.lg}",
@@ -258,11 +258,11 @@
           "textCase": "{typography.reference.body.textCase}",
           "textDecoration": "{typography.reference.body.textDecoration}"
         },
-        "description": "Large body text for emphasis and lead paragraphs"
+        "$description": "Large body text for emphasis and lead paragraphs"
       },
       "medium": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.body.fontFamily}",
           "fontWeight": "{typography.reference.body.fontWeight}",
           "fontSize": "{size.font.base}",
@@ -272,11 +272,11 @@
           "textCase": "{typography.reference.body.textCase}",
           "textDecoration": "{typography.reference.body.textDecoration}"
         },
-        "description": "Standard body text for most content"
+        "$description": "Standard body text for most content"
       },
       "small": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.body.fontFamily}",
           "fontWeight": "{typography.reference.body.fontWeight}",
           "fontSize": "{size.font.sm}",
@@ -286,13 +286,13 @@
           "textCase": "{typography.reference.body.textCase}",
           "textDecoration": "{typography.reference.body.textDecoration}"
         },
-        "description": "Small body text for secondary content"
+        "$description": "Small body text for secondary content"
       }
     },
     "caption": {
       "default": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.caption.fontFamily}",
           "fontWeight": "{font.weight.normal}",
           "fontSize": "{typography.reference.caption.fontSize}",
@@ -302,11 +302,11 @@
           "textCase": "none",
           "textDecoration": "{typography.reference.caption.textDecoration}"
         },
-        "description": "Caption text for images, tables, and secondary information"
+        "$description": "Caption text for images, tables, and secondary information"
       },
       "emphasis": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.caption.fontFamily}",
           "fontWeight": "{font.weight.medium}",
           "fontSize": "{typography.reference.caption.fontSize}",
@@ -316,13 +316,13 @@
           "textCase": "uppercase",
           "textDecoration": "{typography.reference.caption.textDecoration}"
         },
-        "description": "Emphasized caption text for labels and metadata"
+        "$description": "Emphasized caption text for labels and metadata"
       }
     },
     "code": {
       "inline": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.code.fontFamily}",
           "fontWeight": "{typography.reference.code.fontWeight}",
           "fontSize": "{size.font.sm}",
@@ -332,11 +332,11 @@
           "textCase": "{typography.reference.code.textCase}",
           "textDecoration": "{typography.reference.code.textDecoration}"
         },
-        "description": "Inline code text within paragraphs"
+        "$description": "Inline code text within paragraphs"
       },
       "block": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{typography.reference.code.fontFamily}",
           "fontWeight": "{typography.reference.code.fontWeight}",
           "fontSize": "{size.font.sm}",
@@ -346,7 +346,7 @@
           "textCase": "{typography.reference.code.textCase}",
           "textDecoration": "{typography.reference.code.textDecoration}"
         },
-        "description": "Code block text for larger code snippets"
+        "$description": "Code block text for larger code snippets"
       }
     }
   }

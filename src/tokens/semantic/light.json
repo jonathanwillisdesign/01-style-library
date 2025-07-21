@@ -2,207 +2,207 @@
   "color": {
     "background": {
       "default": {
-        "value": "{color.primitives.white}",
-        "description": "Default page background",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.white}",
+        "$description": "Default page background"
       },
       "surface": {
-        "value": "{color.primitives.white}",
-        "description": "Surface background for cards, popovers",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.white}",
+        "$description": "Surface background for cards, popovers"
       }
     },
     "foreground": {
       "default": {
-        "value": "{color.primitives.black.950}",
-        "description": "Default text color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.950}",
+        "$description": "Default text color"
       },
       "surface": {
-        "value": "{color.primitives.black.950}",
-        "description": "Text on surface backgrounds",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.950}",
+        "$description": "Text on surface backgrounds"
       }
     },
     "primary": {
       "default": {
-        "value": "{color.primitives.black.900}",
-        "description": "Primary action color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.900}",
+        "$description": "Primary action color"
       },
       "foreground": {
-        "value": "{color.primitives.black.50}",
-        "description": "Text on primary background",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.50}",
+        "$description": "Text on primary background"
       }
     },
     "secondary": {
       "default": {
-        "value": "{color.primitives.black.100}",
-        "description": "Secondary action color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.100}",
+        "$description": "Secondary action color"
       },
       "foreground": {
-        "value": "{color.primitives.black.900}",
-        "description": "Text on secondary background",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.900}",
+        "$description": "Text on secondary background"
       }
     },
     "accent": {
       "default": {
-        "value": "{color.primitives.black.100}",
-        "description": "Accent color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.100}",
+        "$description": "Accent color"
       },
       "foreground": {
-        "value": "{color.primitives.black.900}",
-        "description": "Text on accent background",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.900}",
+        "$description": "Text on accent background"
       }
     },
     "muted": {
       "default": {
-        "value": "{color.primitives.black.100}",
-        "description": "Muted background color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.100}",
+        "$description": "Muted background color"
       },
       "foreground": {
-        "value": "{color.primitives.black.500}",
-        "description": "Muted text color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.500}",
+        "$description": "Muted text color"
       }
     },
     "destructive": {
       "default": {
-        "value": "{color.primitives.red.default}",
-        "description": "Destructive action color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.red.default}",
+        "$description": "Destructive action color"
       },
       "foreground": {
-        "value": "{color.primitives.black.50}",
-        "description": "Text on destructive background",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.50}",
+        "$description": "Text on destructive background"
       }
     },
     "border": {
       "default": {
-        "value": "{color.primitives.black.200}",
-        "description": "Default border color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.200}",
+        "$description": "Default border color"
       }
     },
     "input": {
       "border": {
-        "value": "{color.primitives.black.200}",
-        "description": "Input border color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.200}",
+        "$description": "Input border color"
       }
     },
     "ring": {
       "default": {
-        "value": "{color.primitives.black.400}",
-        "description": "Focus ring color",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.black.400}",
+        "$description": "Focus ring color"
       }
     },
     "chart": {
       "1": {
-        "value": "{color.primitives.chart.1.light}",
-        "description": "Chart color 1 for light theme",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.chart.1.light}",
+        "$description": "Chart color 1 for light theme"
       },
       "2": {
-        "value": "{color.primitives.chart.2.light}",
-        "description": "Chart color 2 for light theme",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.chart.2.light}",
+        "$description": "Chart color 2 for light theme"
       },
       "3": {
-        "value": "{color.primitives.chart.3.light}",
-        "description": "Chart color 3 for light theme",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.chart.3.light}",
+        "$description": "Chart color 3 for light theme"
       },
       "4": {
-        "value": "{color.primitives.chart.4.light}",
-        "description": "Chart color 4 for light theme",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.chart.4.light}",
+        "$description": "Chart color 4 for light theme"
       },
       "5": {
-        "value": "{color.primitives.chart.5.light}",
-        "description": "Chart color 5 for light theme",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.primitives.chart.5.light}",
+        "$description": "Chart color 5 for light theme"
       }
     }
   },
   "component": {
     "card": {
       "background": {
-        "value": "{color.background.surface}",
-        "description": "Card background in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.background.surface}",
+        "$description": "Card background in light theme"
       },
       "foreground": {
-        "value": "{color.foreground.surface}",
-        "description": "Card text in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.foreground.surface}",
+        "$description": "Card text in light theme"
       },
       "radius": {
-        "value": "{radius.primitives.default}",
-        "description": "Card border radius",
-        "type": "other"
+        "$type": "other",
+        "$value": "{radius.primitives.default}",
+        "$description": "Card border radius"
       }
     },
     "popover": {
       "background": {
-        "value": "{color.background.surface}",
-        "description": "Popover background in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.background.surface}",
+        "$description": "Popover background in light theme"
       },
       "foreground": {
-        "value": "{color.foreground.surface}",
-        "description": "Popover text in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.foreground.surface}",
+        "$description": "Popover text in light theme"
       }
     },
     "sidebar": {
       "background": {
-        "value": "{color.primitives.black.50}",
-        "description": "Sidebar background in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.primitives.black.50}",
+        "$description": "Sidebar background in light theme"
       },
       "foreground": {
-        "value": "{color.primitives.black.950}",
-        "description": "Sidebar text in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.primitives.black.950}",
+        "$description": "Sidebar text in light theme"
       },
       "primary": {
-        "value": "{color.primitives.black.900}",
-        "description": "Sidebar primary color in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.primitives.black.900}",
+        "$description": "Sidebar primary color in light theme"
       },
       "primary-foreground": {
-        "value": "{color.primitives.black.50}",
-        "description": "Sidebar primary text in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.primitives.black.50}",
+        "$description": "Sidebar primary text in light theme"
       },
       "accent": {
-        "value": "{color.primitives.black.100}",
-        "description": "Sidebar accent color in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.primitives.black.100}",
+        "$description": "Sidebar accent color in light theme"
       },
       "accent-foreground": {
-        "value": "{color.primitives.black.900}",
-        "description": "Sidebar accent text in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.primitives.black.900}",
+        "$description": "Sidebar accent text in light theme"
       },
       "border": {
-        "value": "{color.border.default}",
-        "description": "Sidebar border in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.border.default}",
+        "$description": "Sidebar border in light theme"
       },
       "ring": {
-        "value": "{color.ring.default}",
-        "description": "Sidebar focus ring in light theme",
-        "type": "other"
+        "$type": "other",
+        "$value": "{color.ring.default}",
+        "$description": "Sidebar focus ring in light theme"
       }
     }
   }
