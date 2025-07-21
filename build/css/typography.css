@@ -1,0 +1,159 @@
+.typography-responsive-desktop-display-large {
+  font: var(--typography-responsive-desktop-display-large);
+}
+
+.typography-responsive-desktop-display-medium {
+  font: var(--typography-responsive-desktop-display-medium);
+}
+
+.typography-responsive-desktop-display-small {
+  font: var(--typography-responsive-desktop-display-small);
+}
+
+.typography-responsive-desktop-heading-large {
+  font: var(--typography-responsive-desktop-heading-large);
+}
+
+.typography-responsive-desktop-heading-medium {
+  font: var(--typography-responsive-desktop-heading-medium);
+}
+
+.typography-responsive-desktop-heading-small {
+  font: var(--typography-responsive-desktop-heading-small);
+}
+
+.typography-responsive-desktop-body-large {
+  font: var(--typography-responsive-desktop-body-large);
+}
+
+.typography-responsive-desktop-body-medium {
+  font: var(--typography-responsive-desktop-body-medium);
+}
+
+.typography-responsive-desktop-body-small {
+  font: var(--typography-responsive-desktop-body-small);
+}
+
+.typography-responsive-mobile-display-large {
+  font: var(--typography-responsive-mobile-display-large);
+}
+
+.typography-responsive-mobile-display-medium {
+  font: var(--typography-responsive-mobile-display-medium);
+}
+
+.typography-responsive-mobile-display-small {
+  font: var(--typography-responsive-mobile-display-small);
+}
+
+.typography-responsive-mobile-heading-large {
+  font: var(--typography-responsive-mobile-heading-large);
+}
+
+.typography-responsive-mobile-heading-medium {
+  font: var(--typography-responsive-mobile-heading-medium);
+}
+
+.typography-responsive-mobile-heading-small {
+  font: var(--typography-responsive-mobile-heading-small);
+}
+
+.typography-responsive-mobile-body-large {
+  font: var(--typography-responsive-mobile-body-large);
+}
+
+.typography-responsive-mobile-body-medium {
+  font: var(--typography-responsive-mobile-body-medium);
+}
+
+.typography-responsive-mobile-body-small {
+  font: var(--typography-responsive-mobile-body-small);
+}
+
+.typography-responsive-tablet-display-large {
+  font: var(--typography-responsive-tablet-display-large);
+}
+
+.typography-responsive-tablet-display-medium {
+  font: var(--typography-responsive-tablet-display-medium);
+}
+
+.typography-responsive-tablet-display-small {
+  font: var(--typography-responsive-tablet-display-small);
+}
+
+.typography-responsive-tablet-heading-large {
+  font: var(--typography-responsive-tablet-heading-large);
+}
+
+.typography-responsive-tablet-heading-medium {
+  font: var(--typography-responsive-tablet-heading-medium);
+}
+
+.typography-responsive-tablet-heading-small {
+  font: var(--typography-responsive-tablet-heading-small);
+}
+
+.typography-responsive-tablet-body-large {
+  font: var(--typography-responsive-tablet-body-large);
+}
+
+.typography-responsive-tablet-body-medium {
+  font: var(--typography-responsive-tablet-body-medium);
+}
+
+.typography-responsive-tablet-body-small {
+  font: var(--typography-responsive-tablet-body-small);
+}
+
+.typography-display-large {
+  font: var(--typography-display-large);
+}
+
+.typography-display-medium {
+  font: var(--typography-display-medium);
+}
+
+.typography-display-small {
+  font: var(--typography-display-small);
+}
+
+.typography-heading-large {
+  font: var(--typography-heading-large);
+}
+
+.typography-heading-medium {
+  font: var(--typography-heading-medium);
+}
+
+.typography-heading-small {
+  font: var(--typography-heading-small);
+}
+
+.typography-body-large {
+  font: var(--typography-body-large);
+}
+
+.typography-body-medium {
+  font: var(--typography-body-medium);
+}
+
+.typography-body-small {
+  font: var(--typography-body-small);
+}
+
+.typography-caption-default {
+  font: var(--typography-caption-default);
+}
+
+.typography-caption-emphasis {
+  font: var(--typography-caption-emphasis);
+}
+
+.typography-code-inline {
+  font: var(--typography-code-inline);
+}
+
+.typography-code-block {
+  font: var(--typography-code-block);
+}

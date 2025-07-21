@@ -1,0 +1,177 @@
+{
+  "breakpoint": {
+    "tablet": {
+      "min": { "value": "768px", "description": "Tablet breakpoint minimum width" },
+      "max": { "value": "1023px", "description": "Tablet breakpoint maximum width" }
+    }
+  },
+  "spacing": {
+    "responsive": {
+      "tablet": {
+        "xs": { "value": "{spacing.base.2}", "description": "Tablet extra small spacing" },
+        "sm": { "value": "{spacing.base.3}", "description": "Tablet small spacing" },
+        "md": { "value": "{spacing.base.4}", "description": "Tablet medium spacing" },
+        "lg": { "value": "{spacing.base.6}", "description": "Tablet large spacing" },
+        "xl": { "value": "{spacing.base.8}", "description": "Tablet extra large spacing" },
+        "2xl": { "value": "{spacing.base.10}", "description": "Tablet 2x large spacing" }
+      }
+    }
+  },
+  "size": {
+    "responsive": {
+      "tablet": {
+        "font": {
+          "xs": { "value": "0.75rem", "description": "Tablet 12px font size" },
+          "sm": { "value": "0.875rem", "description": "Tablet 14px font size" },
+          "base": { "value": "1rem", "description": "Tablet 16px base font size" },
+          "lg": { "value": "1.125rem", "description": "Tablet 18px font size" },
+          "xl": { "value": "1.25rem", "description": "Tablet 20px font size" },
+          "2xl": { "value": "1.5rem", "description": "Tablet 24px font size" },
+          "3xl": { "value": "1.875rem", "description": "Tablet 30px font size" },
+          "4xl": { "value": "2.25rem", "description": "Tablet 36px font size" },
+          "5xl": { "value": "3rem", "description": "Tablet 48px font size" },
+          "6xl": { "value": "3.75rem", "description": "Tablet 60px font size" },
+          "7xl": { "value": "4.5rem", "description": "Tablet 72px font size" }
+        }
+      }
+    }
+  },
+  "typography": {
+    "responsive": {
+      "tablet": {
+        "display": {
+          "large": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.display.fontFamily}",
+              "fontWeight": "{font.weight.black}",
+              "fontSize": "{size.responsive.tablet.font.7xl}",
+              "lineHeight": "{typography.reference.display.lineHeight}",
+              "letterSpacing": "{typography.reference.display.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.display.paragraphSpacing}",
+              "textCase": "{typography.reference.display.textCase}",
+              "textDecoration": "{typography.reference.display.textDecoration}"
+            },
+            "description": "Tablet large display text"
+          },
+          "medium": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.display.fontFamily}",
+              "fontWeight": "{font.weight.extrabold}",
+              "fontSize": "{size.responsive.tablet.font.5xl}",
+              "lineHeight": "{typography.reference.display.lineHeight}",
+              "letterSpacing": "{typography.reference.display.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.display.paragraphSpacing}",
+              "textCase": "{typography.reference.display.textCase}",
+              "textDecoration": "{typography.reference.display.textDecoration}"
+            },
+            "description": "Tablet medium display text"
+          },
+          "small": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.display.fontFamily}",
+              "fontWeight": "{font.weight.bold}",
+              "fontSize": "{size.responsive.tablet.font.4xl}",
+              "lineHeight": "{typography.reference.display.lineHeight}",
+              "letterSpacing": "{typography.reference.display.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.display.paragraphSpacing}",
+              "textCase": "{typography.reference.display.textCase}",
+              "textDecoration": "{typography.reference.display.textDecoration}"
+            },
+            "description": "Tablet small display text"
+          }
+        },
+        "heading": {
+          "large": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.heading.fontFamily}",
+              "fontWeight": "{font.weight.bold}",
+              "fontSize": "{size.responsive.tablet.font.3xl}",
+              "lineHeight": "{font.lineHeight.tight}",
+              "letterSpacing": "{typography.reference.heading.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.heading.paragraphSpacing}",
+              "textCase": "{typography.reference.heading.textCase}",
+              "textDecoration": "{typography.reference.heading.textDecoration}"
+            },
+            "description": "Tablet large heading"
+          },
+          "medium": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.heading.fontFamily}",
+              "fontWeight": "{font.weight.semibold}",
+              "fontSize": "{size.responsive.tablet.font.xl}",
+              "lineHeight": "{font.lineHeight.snug}",
+              "letterSpacing": "{typography.reference.heading.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.heading.paragraphSpacing}",
+              "textCase": "{typography.reference.heading.textCase}",
+              "textDecoration": "{typography.reference.heading.textDecoration}"
+            },
+            "description": "Tablet medium heading"
+          },
+          "small": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.heading.fontFamily}",
+              "fontWeight": "{font.weight.semibold}",
+              "fontSize": "{size.responsive.tablet.font.lg}",
+              "lineHeight": "{font.lineHeight.normal}",
+              "letterSpacing": "{typography.reference.heading.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.heading.paragraphSpacing}",
+              "textCase": "{typography.reference.heading.textCase}",
+              "textDecoration": "{typography.reference.heading.textDecoration}"
+            },
+            "description": "Tablet small heading"
+          }
+        },
+        "body": {
+          "large": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.body.fontFamily}",
+              "fontWeight": "{typography.reference.body.fontWeight}",
+              "fontSize": "{size.responsive.tablet.font.lg}",
+              "lineHeight": "{typography.reference.body.lineHeight}",
+              "letterSpacing": "{typography.reference.body.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.body.paragraphSpacing}",
+              "textCase": "{typography.reference.body.textCase}",
+              "textDecoration": "{typography.reference.body.textDecoration}"
+            },
+            "description": "Tablet large body text"
+          },
+          "medium": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.body.fontFamily}",
+              "fontWeight": "{typography.reference.body.fontWeight}",
+              "fontSize": "{size.responsive.tablet.font.base}",
+              "lineHeight": "{typography.reference.body.lineHeight}",
+              "letterSpacing": "{typography.reference.body.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.body.paragraphSpacing}",
+              "textCase": "{typography.reference.body.textCase}",
+              "textDecoration": "{typography.reference.body.textDecoration}"
+            },
+            "description": "Tablet standard body text"
+          },
+          "small": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.body.fontFamily}",
+              "fontWeight": "{typography.reference.body.fontWeight}",
+              "fontSize": "{size.responsive.tablet.font.sm}",
+              "lineHeight": "{font.lineHeight.normal}",
+              "letterSpacing": "{typography.reference.body.letterSpacing}",
+              "paragraphSpacing": "12px",
+              "textCase": "{typography.reference.body.textCase}",
+              "textDecoration": "{typography.reference.body.textDecoration}"
+            },
+            "description": "Tablet small body text"
+          }
+        }
+      }
+    }
+  }
+}

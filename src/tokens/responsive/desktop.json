@@ -1,0 +1,179 @@
+{
+  "breakpoint": {
+    "desktop": {
+      "min": { "value": "1024px", "description": "Desktop breakpoint minimum width" },
+      "max": { "value": "9999px", "description": "Desktop breakpoint maximum width" }
+    }
+  },
+  "spacing": {
+    "responsive": {
+      "desktop": {
+        "xs": { "value": "{spacing.base.2}", "description": "Desktop extra small spacing" },
+        "sm": { "value": "{spacing.base.4}", "description": "Desktop small spacing" },
+        "md": { "value": "{spacing.base.6}", "description": "Desktop medium spacing" },
+        "lg": { "value": "{spacing.base.8}", "description": "Desktop large spacing" },
+        "xl": { "value": "{spacing.base.10}", "description": "Desktop extra large spacing" },
+        "2xl": { "value": "{spacing.base.12}", "description": "Desktop 2x large spacing" }
+      }
+    }
+  },
+  "size": {
+    "responsive": {
+      "desktop": {
+        "font": {
+          "xs": { "value": "0.75rem", "description": "Desktop 12px font size" },
+          "sm": { "value": "0.875rem", "description": "Desktop 14px font size" },
+          "base": { "value": "1rem", "description": "Desktop 16px base font size" },
+          "lg": { "value": "1.125rem", "description": "Desktop 18px font size" },
+          "xl": { "value": "1.25rem", "description": "Desktop 20px font size" },
+          "2xl": { "value": "1.5rem", "description": "Desktop 24px font size" },
+          "3xl": { "value": "1.875rem", "description": "Desktop 30px font size" },
+          "4xl": { "value": "2.25rem", "description": "Desktop 36px font size" },
+          "5xl": { "value": "3rem", "description": "Desktop 48px font size" },
+          "6xl": { "value": "3.75rem", "description": "Desktop 60px font size" },
+          "7xl": { "value": "4.5rem", "description": "Desktop 72px font size" },
+          "8xl": { "value": "6rem", "description": "Desktop 96px font size" },
+          "9xl": { "value": "8rem", "description": "Desktop 128px font size" }
+        }
+      }
+    }
+  },
+  "typography": {
+    "responsive": {
+      "desktop": {
+        "display": {
+          "large": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.display.fontFamily}",
+              "fontWeight": "{font.weight.black}",
+              "fontSize": "{size.responsive.desktop.font.9xl}",
+              "lineHeight": "{typography.reference.display.lineHeight}",
+              "letterSpacing": "{typography.reference.display.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.display.paragraphSpacing}",
+              "textCase": "{typography.reference.display.textCase}",
+              "textDecoration": "{typography.reference.display.textDecoration}"
+            },
+            "description": "Desktop large display text"
+          },
+          "medium": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.display.fontFamily}",
+              "fontWeight": "{font.weight.extrabold}",
+              "fontSize": "{size.responsive.desktop.font.6xl}",
+              "lineHeight": "{typography.reference.display.lineHeight}",
+              "letterSpacing": "{typography.reference.display.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.display.paragraphSpacing}",
+              "textCase": "{typography.reference.display.textCase}",
+              "textDecoration": "{typography.reference.display.textDecoration}"
+            },
+            "description": "Desktop medium display text"
+          },
+          "small": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.display.fontFamily}",
+              "fontWeight": "{font.weight.bold}",
+              "fontSize": "{size.responsive.desktop.font.5xl}",
+              "lineHeight": "{typography.reference.display.lineHeight}",
+              "letterSpacing": "{typography.reference.display.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.display.paragraphSpacing}",
+              "textCase": "{typography.reference.display.textCase}",
+              "textDecoration": "{typography.reference.display.textDecoration}"
+            },
+            "description": "Desktop small display text"
+          }
+        },
+        "heading": {
+          "large": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.heading.fontFamily}",
+              "fontWeight": "{font.weight.bold}",
+              "fontSize": "{size.responsive.desktop.font.4xl}",
+              "lineHeight": "{font.lineHeight.tight}",
+              "letterSpacing": "{typography.reference.heading.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.heading.paragraphSpacing}",
+              "textCase": "{typography.reference.heading.textCase}",
+              "textDecoration": "{typography.reference.heading.textDecoration}"
+            },
+            "description": "Desktop large heading"
+          },
+          "medium": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.heading.fontFamily}",
+              "fontWeight": "{font.weight.semibold}",
+              "fontSize": "{size.responsive.desktop.font.2xl}",
+              "lineHeight": "{font.lineHeight.snug}",
+              "letterSpacing": "{typography.reference.heading.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.heading.paragraphSpacing}",
+              "textCase": "{typography.reference.heading.textCase}",
+              "textDecoration": "{typography.reference.heading.textDecoration}"
+            },
+            "description": "Desktop medium heading"
+          },
+          "small": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.heading.fontFamily}",
+              "fontWeight": "{font.weight.semibold}",
+              "fontSize": "{size.responsive.desktop.font.xl}",
+              "lineHeight": "{font.lineHeight.normal}",
+              "letterSpacing": "{typography.reference.heading.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.heading.paragraphSpacing}",
+              "textCase": "{typography.reference.heading.textCase}",
+              "textDecoration": "{typography.reference.heading.textDecoration}"
+            },
+            "description": "Desktop small heading"
+          }
+        },
+        "body": {
+          "large": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.body.fontFamily}",
+              "fontWeight": "{typography.reference.body.fontWeight}",
+              "fontSize": "{size.responsive.desktop.font.lg}",
+              "lineHeight": "{typography.reference.body.lineHeight}",
+              "letterSpacing": "{typography.reference.body.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.body.paragraphSpacing}",
+              "textCase": "{typography.reference.body.textCase}",
+              "textDecoration": "{typography.reference.body.textDecoration}"
+            },
+            "description": "Desktop large body text"
+          },
+          "medium": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.body.fontFamily}",
+              "fontWeight": "{typography.reference.body.fontWeight}",
+              "fontSize": "{size.responsive.desktop.font.base}",
+              "lineHeight": "{typography.reference.body.lineHeight}",
+              "letterSpacing": "{typography.reference.body.letterSpacing}",
+              "paragraphSpacing": "{typography.reference.body.paragraphSpacing}",
+              "textCase": "{typography.reference.body.textCase}",
+              "textDecoration": "{typography.reference.body.textDecoration}"
+            },
+            "description": "Desktop standard body text"
+          },
+          "small": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{typography.reference.body.fontFamily}",
+              "fontWeight": "{typography.reference.body.fontWeight}",
+              "fontSize": "{size.responsive.desktop.font.sm}",
+              "lineHeight": "{font.lineHeight.normal}",
+              "letterSpacing": "{typography.reference.body.letterSpacing}",
+              "paragraphSpacing": "14px",
+              "textCase": "{typography.reference.body.textCase}",
+              "textDecoration": "{typography.reference.body.textDecoration}"
+            },
+            "description": "Desktop small body text"
+          }
+        }
+      }
+    }
+  }
+}
